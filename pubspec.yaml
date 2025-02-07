@@ -1,0 +1,41 @@
+name: MoveM8
+description: A fitness tracking app built with Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.1
+  http: ^1.2.2
+  flutter_secure_storage: ^9.2.2
+  provider: ^6.0.5
+  font_awesome_flutter: ^10.1.0
+  image_picker: ^1.1.2
+  badges: ^2.0.2
+  fl_chart: ^0.70.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-ExtraLight.ttf
+    - family: Chaney
+      fonts:
+        - asset: assets/fonts/CHANEY-UltraExtended.otf
+          weight: 700
+  assets:
+    - assets/images/logo.png
+    - assets/images/consistency.jpeg
+    - assets/images/splash_background.jpeg
+    - assets/images/heatmap0.png
+    - assets/images/heatmapFB.png
